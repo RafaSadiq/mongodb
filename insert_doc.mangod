@@ -1,0 +1,9 @@
+db.books.insert(
+{
+  "name": "OOP Programming",
+  "publishedDate": new Date(),
+  "authors": [
+    {"name": "mike"},
+    {"name": "rafa"}
+  ]
+})

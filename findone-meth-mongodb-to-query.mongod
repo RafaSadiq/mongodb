@@ -1,0 +1,8 @@
+db.car.findOne(
+    { },
+    {name:1,color:1})
+
+
+{ "_id" : ObjectId("6202ee389c3007406af54932"), "name" : "OOP Programming", "publishedDate" : ISODate("2022-02-08T22:27:04.144Z"), "authors" : [ { "name" : "Jon Snow" }, { "name" : "Ned Stark" } ] }
+{ "_id" : ObjectId("6202ee4d9c3007406af54933"), "name" : "OOP Programming", "publishedDate" : ISODate("2022-02-08T22:27:25.434Z"), "authors" : [ { "name" : "ricky" }, { "name" : "will" } ] }
+{ "_id" : ObjectId("6202ee5a9c3007406af54934"), "name" : "OOP Programming", "publishedDate" : ISODate("2022-02-08T22:27:38.795Z"), "authors" : [ { "name" : "mike" }, { "name" : "rafa" } ] }
